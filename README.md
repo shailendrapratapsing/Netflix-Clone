@@ -1,8 +1,60 @@
-# React + Vite
+# Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a Netflix Clone built with React, featuring a homepage with a hero section, a navbar, and title cards displaying popular content. The project utilizes components for modular development and includes basic styling.
 
-Currently, two official plugins are available:
+## Features
+- **Navbar:** Includes navigation links, search functionality, and a profile dropdown.
+- **Hero Section:** Displays a featured show with a banner image, title, and action buttons.
+- **Title Cards:** Showcases a list of popular content on Netflix.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React
+- CSS for styling
+- Asset images for UI elements
+
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo/netflix-clone.git
+   ```
+2. Navigate into the project directory:
+   ```sh
+   cd netflix-clone
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
+
+## Project Structure
+```
+netflix-clone/
+│-- public/
+│-- src/
+│   │-- assets/
+│   │-- components/
+│   │   │-- Navbar/
+│   │   │-- TitleCards/
+│   │-- pages/
+│   │   │-- Home.js
+│   │-- App.js
+│   │-- index.js
+│-- package.json
+```
+
+## Future Enhancements
+- Implement authentication.
+- Add a backend for user data storage.
+- Improve responsiveness and UI design.
+
+## License
+This project is licensed under the MIT License.
+
+## Author
+[Shailendra Pratap Singh]
+
